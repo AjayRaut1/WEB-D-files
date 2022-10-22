@@ -1,0 +1,32 @@
+/* universal selector */
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color:rgb(24, 29, 20);
+    font-size: 24px;
+}
+
+p:hover{
+    font-family: sans-serif;
+    color: rgb(6, 170, 80);
+}
+#article1{
+    color:rgb(6, 170, 80);
+}
+
+.lightblue {
+    color:aqua;
+}
+
+/* nested selctors */
+.highlight>#h1{
+    color: darkred;
+}
+
+.highlight {
+    background-color:rgb(14, 56, 123);
+    font-weight: bolder;
+    font-style: italic;
+}

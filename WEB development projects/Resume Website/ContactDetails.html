@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h1>Enter Your Details</h1>
+    <form action="">
+        <label for="">First Name</label>
+        <input type="text" name="firstName"></input>
+        <label for="">Last Name</label>
+        <input type="text" name="lastName"></input>
+        <br><br>
+
+        <label for="">Date of Birth</label>
+        <input type="date"></input>
+
+        <label for="">Enter your Password</label>
+        <input type="password"></input>
+        <br><br>
+
+        <!-- //by multiple option can be selected , to disable it name all the options which can be single-valued -->
+        <label for="">Select T-Shirt Size</label><br>
+
+        <input id="small" name="Tsize" type="radio" value="small"></input>
+        <label for="small">Small</label>
+        <br>
+        <input id="medium" name="Tsize" type="radio" value="medium"></input>
+        <label for="medium">Medium</label>
+        <br>
+        <input name="Tsize" type="radio" value="large"></input>
+        <label for="">Large</label>
+        <!-- closed -->
+        
+
+        <br>
+        <label for="color" >Select your favourite color</label>
+        <input type="color" id="color"></input>
+
+        <!-- input type=range for creating a drop down list for user -->
+        <br><br>
+        <label for="car">Select your favourite Car : </label>
+        <select name="Car" id="car">
+            <option value="Lamborgini">Lamborgini</option>
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="BentlyContinental">Bently Continental</option>
+        </select>
+        <!-- drop down ends -->
+
+        <!-- tell me about yourself start -->
+        <br><br>
+        <label for="aboutYourself">Tell us about yourself : </label><br>
+        <textarea name="aboutYourself" id="aboutYourself" cols="50" rows="10"></textarea>
+
+        <!-- tell me about yourself ends -->
+
+        <!-- reset and submit buttons -->
+        <br><br>
+        <input type="reset"></input>
+        <input type="submit"></input> 
+        <!-- on hitting submit , all the tags containing value attribute will store the user input and store in a url which can be proceesed by javscript -->
+
+        
+
+    </form>
+</body>
+</html>

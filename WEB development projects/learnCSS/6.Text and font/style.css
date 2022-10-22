@@ -1,0 +1,44 @@
+body{
+    background-color: #2b2d42;
+    font-size: 1.75rem;
+    /* use custom font using google fonts links */
+    font-family:'Lobster',Verdana,sans-serif ;
+}
+
+h1{
+    /* font-family:'Open Sans',cursive; */
+    color: #edf2f4;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration-line: underline ;
+    text-decoration-color: cyan;
+    text-decoration-style:wavy;
+    color: orange;
+    text-shadow: 4px 4px 5px red;
+}
+
+p{
+    background-color: #8d99ae;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    text-indent: 40px;
+    /* letter-spacing: 0.2rem; */
+    line-height: 1.8rem;
+
+    font-weight: 900;   /*makes text bolder */
+    /* font-style: italic; */
+    font-size: 1.8rem;
+}
+
+a{
+    color: chocolate;
+    text-decoration-style:wavy;
+    text-decoration-color: aqua;
+}
+
+/* to blue any text */
+h3{
+    color:transparent;
+    text-shadow: 4px 4px 5px red;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1) img for different pixel density (also reduces loading time in low res devices) to reduce bandwidth(mobile data)  -->
+
+    <!-- <img width="100%"
+    srcset="Images/nature1x.jpg 1x, Images/nature2x.jpg 2x , Images/nature3x.jpg 3x"
+    src="Images/nature3x.jpg" alt="This is photo of River"> -->
+    
+    <!-- 2) cropped images shown on different devices for better visiblity(Art direction problem's solution) -->
+
+    <img width="100%"
+    srcset="Images/portrait-desktop.jpg 1000w,
+            Images/portrait-tablet.jpg 800w,
+            Images/portrait-mobile.jpg 500w"
+    sizes="(max-width : 500px) 500px,
+           (max-width : 800px) 800px,
+           1000px"
+    src="Images/portrait-desktop.jpg" alt="seaside portrait of a standing girl">
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box ;
+}
+
+body{
+    background-color: #6d6875;
+    color: #ffcdb2;
+    font-size: 1.75rem;
+}
+
+.box{
+    text-align: center;
+    width:200px;
+    height:200px;
+    border: 15px solid #b5838d;
+    margin:40px;
+    padding:20px 30px;
+}
